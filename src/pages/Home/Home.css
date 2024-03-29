@@ -1,0 +1,10 @@
+.main {
+  background-color: #ff8600;
+  min-height: 80vh;
+  padding-top: 1em;
+}
+.img {
+  padding: 2.3em;
+  justify-content: center;
+  align-items: center;
+}

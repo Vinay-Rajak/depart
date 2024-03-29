@@ -1,0 +1,70 @@
+.main-department {
+  padding: 4em 3em;
+  padding-bottom: 0;
+}
+.cource {
+  background-color: white;
+  padding: 1em 1em;
+}
+.cource h1 {
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+table {
+  width: 50%;
+  text-align: center;
+  font-size: 1em;
+  margin-left: 2em;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+.cource th,
+td {
+  border-bottom: 1px solid grey;
+  border-collapse: collapse;
+  font-size: 1.3rem;
+}
+
+/* this for facilities*/
+.facilities {
+  padding: 2em 1em;
+}
+.facilities h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 900;
+}
+
+.in-facilities {
+  padding: 0 2em;
+}
+.in-facilities h3 {
+  font-weight: 500;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.in-facilities p {
+  margin-bottom: 0.5em;
+}
+.in-facilities hr {
+  margin: 1em 0;
+}
+
+/* research */
+.Research {
+  margin: 1em;
+}
+.in-research {
+  padding: 3em;
+  padding-top: 2em;
+}
+
+.in-research div {
+  margin-top: 0.5em;
+}
+
+.in-research div ul {
+  margin-left: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,14 @@
+.about {
+  margin: 2em 0;
+}
+.about h1 {
+  margin: 1em 0;
+  text-align: center;
+}
+.in-about p {
+  margin-left: 2%;
+  font-weight: 700;
+}
+.in-about h2 {
+  margin: 0.8em 0;
+}

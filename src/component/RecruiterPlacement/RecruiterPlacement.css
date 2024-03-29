@@ -1,0 +1,19 @@
+.company {
+  width: 85%;
+  padding: 2em 0;
+  margin: auto;
+}
+.company h1 {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.in-company img {
+  width: 30%;
+}
+.carousel-container {
+  display: flex;
+  align-items: center;
+  padding: 1em 2em;
+  text-align: center;
+}

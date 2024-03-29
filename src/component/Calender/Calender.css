@@ -1,0 +1,19 @@
+.calender {
+}
+
+.calender h2 {
+  font-size: 1.8em;
+  font-weight: 900;
+  margin-bottom: 0.7em;
+}
+.calender ol {
+  padding-left: 6%;
+}
+.calender ol li {
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+.calender ol li a {
+  font-size: 1.1em;
+  text-decoration: none;
+}

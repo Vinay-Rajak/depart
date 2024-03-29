@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 0em;
+}
+.top-footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #fffc0ab0;
+  color: #090909;
+  font-weight: 900;
+  font-size: 1em;
+}
+.in-top-footer {
+  padding: 0.5em 2em;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bottom-footer {
+  padding: 0.7em 0;
+  text-align: center;
+}

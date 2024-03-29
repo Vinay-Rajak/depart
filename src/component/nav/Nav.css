@@ -1,0 +1,62 @@
+.nav,
+.hide-nav {
+  display: flex;
+  width: 100%;
+  height: 2.8em;
+  background-color: black;
+  align-items: center;
+  padding: 1em 2.3em;
+  gap: 1em;
+  justify-content: space-around;
+}
+.nav a,
+.hide-nav a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #ffdd11;
+  color: black !important;
+  font-weight: 700;
+  padding: 0.4em 0.7em;
+  border-radius: 0.5em;
+}
+.moblie-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .moblie-nav {
+    display: block;
+    width: 100%;
+    height: 2.5em;
+    background-color: black;
+    padding: 0.2em;
+    padding-left: 1em;
+    color: white;
+  }
+  .nav {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    align-items: left;
+    padding: 1em 2.3em;
+    gap: 1em;
+    justify-content: space-around;
+    transition: height 2s;
+  }
+  .hide-nav {
+    transition: height 2s;
+    height: 0;
+    display: none;
+  }
+  .hide-nav a {
+    display: none;
+  }
+}

@@ -1,0 +1,47 @@
+.main-content {
+  padding: 2em;
+  padding-left: 10%;
+  width: 65%;
+  background-color: #ffdd11;
+  text-align: left;
+}
+.main-content p {
+  font-weight: 700;
+}
+.section {
+  width: 100%;
+  padding: 1.5em;
+  padding-left: 2rem;
+  background-color: white;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.section .left-section {
+  margin-right: 0.5em;
+}
+.section .right-section {
+  width: 68%;
+  padding: 1em;
+  text-align: left;
+  border-left: 2px solid green;
+}
+.section .right-section p {
+  font-size: 1.1em;
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 750px) {
+  .main-content {
+    width: 90%;
+  }
+  .section {
+    padding: 1.5em 0em;
+  }
+  .section .right-section {
+    padding-right: 0;
+  }
+  .section .right-section p {
+    font-size: 1.5em;
+  }
+}

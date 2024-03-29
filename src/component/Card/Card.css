@@ -1,0 +1,27 @@
+.main-card {
+  margin: 1.5em;
+  width: fit-content;
+  height: 19em;
+  border: 2px solid orange;
+  padding: 1em;
+  text-align: center;
+  background-color: #ffff;
+}
+.main-card:hover {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 900px) {
+  .main-card {
+    margin: 0.5em;
+    min-height: 20em;
+    height: fit-content;
+  }
+  .main-card h3 {
+    font-size: 1.6em;
+  }
+  .main-card p {
+    font-size: 1.2em;
+  }
+}
