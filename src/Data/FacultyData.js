@@ -45,7 +45,7 @@ const Regular = [
     post: "Both(UG & PG)",
   },
   {
-    img: "https://www.uitrgpv.ac.in/AboutDepartment/FacultyImages/uday12_290414010850.jpg",
+    img: "https://www.uitrgpv.ac.in/AboutDepartment/FacultyImages/rajubaraskar12_290414015821.JPG",
     name: "DR RAJU BARASKAR",
     designation: "Associate Professor",
     experience: "16 years",
@@ -54,7 +54,7 @@ const Regular = [
     post: "Both(UG & PG)",
   },
   {
-    img: "https://www.uitrgpv.ac.in/AboutDepartment/FacultyImages/RP_170323025758.jpg",
+    img: "https://www.uitrgpv.ac.in/AboutDepartment/FacultyImages/uday12_290414010850.jpg",
     name: "PROF. UDAY CHOURASIA",
     designation: "Associate Professor",
     experience: "16 years",

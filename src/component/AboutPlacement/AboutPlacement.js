@@ -4,12 +4,13 @@ import "./AboutPlacement.css";
 function AboutPlacement() {
   return (
     <>
-      <div className="about">
-        <h1>ABOUT PLACEMENT</h1>
+      <div className="about-p">
+        <div className="about">
+          <h1>ABOUT PLACEMENT</h1>
 
-        <hr />
-        <br />
-        <div className="in-about">
+          <hr />
+          <br />
+
           <p>
             The Training & Placement, UIT- RGPV plays a crucial role in locating
             job opportunities for Under Graduates and Post Graduates students
@@ -21,7 +22,9 @@ function AboutPlacement() {
             their potential to gain valuable experience by working in the
             industry, companies, or various emerging startups.
           </p>
-          <br />
+        </div>
+        <br />
+        <div className="in-about2 facilities">
           <h2>Why @ UIT</h2>
           <p>
             UIT-RGPV, Bhopal is a community of teachers, staff & students, who

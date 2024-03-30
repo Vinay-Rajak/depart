@@ -1,16 +1,36 @@
 .main-department {
-  padding: 4em 3em;
+  padding: 4em 0em;
   padding-bottom: 0;
+  background: #f5f5f5d9;
 }
 .cource {
-  background-color: white;
-  padding: 1em 1em;
+  width: 85%;
+  min-height: 16vh;
+  background-color: aquamarine;
+  border-radius: 0 50vh 50vh 0;
+  padding: 2em 1em;
+  padding-left: 10%;
 }
 .cource h1 {
   font-weight: 900;
+
   margin-bottom: 1em;
 }
-table {
+.cource table {
+  margin-left: 15%;
+  border: 2.5px solid white;
+  padding: 1em;
+  font-size: 1.1em;
+  border-radius: 0.5em;
+}
+.cource table th {
+  font-size: 1.3em;
+  padding-bottom: 0.5em;
+}
+.cource table th {
+  font-weight: 700;
+}
+/*table {
   width: 50%;
   text-align: center;
   font-size: 1em;
@@ -23,11 +43,23 @@ td {
   border-bottom: 1px solid grey;
   border-collapse: collapse;
   font-size: 1.3rem;
-}
+}*/
 
 /* this for facilities*/
 .facilities {
-  padding: 2em 1em;
+  padding: 3em 1em;
+  width: 85%;
+  float: unset;
+  background-color: aquamarine;
+  padding-left: 5%;
+  margin-top: 2em;
+  border-radius: 50vh 0 0 50vh;
+  position: relative;
+  right: -15%;
+}
+.facilities h1 {
+  font-weight: 900;
+  margin-left: 1.2em;
 }
 .facilities h2 {
   margin-top: 2em;
@@ -36,15 +68,16 @@ td {
 }
 
 .in-facilities {
-  padding: 0 2em;
+  padding-left: 3.8em;
 }
 .in-facilities h3 {
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 .in-facilities p {
   margin-bottom: 0.5em;
+  font-size: 1.3em;
 }
 .in-facilities hr {
   margin: 1em 0;
@@ -52,7 +85,7 @@ td {
 
 /* research */
 .Research {
-  margin: 1em;
+  margin: 2em 0;
 }
 .in-research {
   padding: 3em;
@@ -67,4 +100,26 @@ td {
   margin-left: 2em;
   margin-top: 0.5em;
   margin-bottom: 1em;
+}
+ul li {
+  font-size: larger;
+}
+
+@media screen and (max-width: 900px) {
+  .cource {
+    width: 95%;
+    border-radius: 0 8vh 8vh 0;
+  }
+  .cource table {
+    margin-left: 5%;
+    font-size: 1.3em;
+  }
+  .facilities {
+    width: 95%;
+    border-radius: 8vh 0 0 8vh;
+    right: -5%;
+  }
+  .in-research {
+    padding: 0.8em;
+  }
 }

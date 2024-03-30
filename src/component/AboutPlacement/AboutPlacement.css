@@ -12,3 +12,21 @@
 .in-about h2 {
   margin: 0.8em 0;
 }
+
+.in-about2 {
+  padding-left: 10%;
+  margin-bottom: 3em;
+}
+.in-about2 h2 {
+  text-align: center;
+  padding-top: 0;
+  margin: 0;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+.in-about2 p {
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-left: 3%;
+  padding-bottom: 9%;
+}

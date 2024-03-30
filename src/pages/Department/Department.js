@@ -22,9 +22,14 @@ function Department() {
                 <td>M.E.</td>
                 <td>Computer Science & Engineering</td>
               </tr>
+              <tr>
+                <td>B.C.A</td>
+                <td>Computer Science & Engineering</td>
+              </tr>
             </tbody>
           </table>
         </div>
+
         <div className="facilities">
           <h1>DEPARTMENTAL FACILITY</h1>
           <div className="in-facilities">
@@ -46,7 +51,7 @@ function Department() {
           </div>
         </div>
 
-        <div className="Research">
+        <div className="Research cource">
           <h1>DEPARTMENTAL RESEARCH</h1>
 
           <div className="in-research">

@@ -16,7 +16,7 @@ function RecruiterPlacement() {
                 items: 3,
               },
               mobile: {
-                breakpoint: { max: 464, min: 0 },
+                breakpoint: { max: 704, min: 0 },
                 items: 1,
               },
             }}

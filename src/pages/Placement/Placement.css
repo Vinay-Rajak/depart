@@ -1,16 +1,20 @@
 .main-placements {
-  padding: 0 3em;
+  padding: 0 0em;
   padding-top: 2em;
   background-color: rgb(255, 255, 240);
 }
 
 .menter-team {
-  padding: 2em 0;
-  margin: 5rem 0;
+  padding: 4em 0;
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  font-size: larger;
 }
 .menter-team table {
-  margin-top: 2em;
-  width: 75%;
+  margin: auto;
+  font-size: larger;
+  padding: 2em 0;
 }
 
 table tr:nth-child(odd) {
