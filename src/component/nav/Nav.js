@@ -8,6 +8,11 @@ function Nav() {
   let [toggle, setToggle] = useState(true);
   let [show, setShow] = useState("hide-nav");
 
+  function NavClick() {
+    setShow("hide-nav");
+    setToggle(true);
+  }
+
   return (
     <>
       <div className="main-nav">
@@ -31,26 +36,26 @@ function Nav() {
           )}
         </div>
         <div className={show}>
-          <NavLink exact to="/">
+          <NavLink exact to="/" onClick={NavClick}>
             Home
           </NavLink>
-          <NavLink exact to="/about">
+          <NavLink exact to="/about" onClick={NavClick}>
             {" "}
             About Us
           </NavLink>
-          <NavLink exact to="/Department">
+          <NavLink exact to="/Department" onClick={NavClick}>
             Department Profile{" "}
           </NavLink>
-          <NavLink exact to="/student">
+          <NavLink exact to="/student" onClick={NavClick}>
             Student
           </NavLink>
-          <NavLink exact to="/faculty">
+          <NavLink exact to="/faculty" onClick={NavClick}>
             Faculty
           </NavLink>
-          <NavLink exact to="/placement">
+          <NavLink exact to="/placement" onClick={NavClick}>
             Placement
           </NavLink>
-          <NavLink exact to="/contact">
+          <NavLink exact to="/contact" onClick={NavClick}>
             Contect Us
           </NavLink>
         </div>
